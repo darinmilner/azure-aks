@@ -17,7 +17,7 @@ variable "environment" {
 }
 
 variable "ssh-key" {
-  default = "${path.module}/.ssh/authkey.pub"
+  default = "./.ssh/authkey.pub"
 }
 
 variable "windows-admin-username" {
